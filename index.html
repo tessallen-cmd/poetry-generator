@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI English Poem Generator</title>
   </head>
@@ -16,7 +17,7 @@
 <main>  
 
 
-    <form>  
+    <form id="poem-generator-form">  
 <input type="text"placeholder="Enter the topic of the English poem" 
 autofocus
 required
@@ -26,11 +27,8 @@ class="instructions"
 <input type="submit"class="submit-button" />
    </form>
    
-    <div class="poem">
-     Nature is usually always right.
-
-    <br />
-    Nature is the forest, with its many shades of green.
+    <div class="poem" id="poem">
+   
 </div>
 
 
